@@ -35,7 +35,7 @@ padding: 15px 20px;
 }
 
 .weather-forecast {
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
 
 }
