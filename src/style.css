@@ -12,3 +12,13 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100,0.08);
   
 }
+
+.input-text {
+    background-color: #e3e3e3;
+    color: #A9A6B3;
+    line-height: 16px;
+    border-radius: 6px;
+    width: 88%;
+    border: none;
+    padding: 15px 20px;
+}
