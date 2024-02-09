@@ -33,7 +33,11 @@ border: none;
 margin-left: 5px;
 padding: 15px 20px;
 }
-
+.weather-forecast{
+  display: flex;
+  justify-content: space-between;
+   font-family: "Lora", serif;
+}
 strong {
   color: #58727F;
 }
