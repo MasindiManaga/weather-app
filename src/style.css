@@ -14,11 +14,15 @@ body {
 }
 
 .input-text {
-    background-color: #e3e3e3;
+    background-color: gray;
     color: #A9A6B3;
     line-height: 16px;
     border-radius: 6px;
-    width: 88%;
+    width: 60%;
     border: none;
     padding: 15px 20px;
+}
+
+.search-input{
+
 }
