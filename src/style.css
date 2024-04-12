@@ -1,15 +1,20 @@
 body {
   background-color: gray;
   font-family: "Lora", serif;
+  border: none;
 }
 
 .first {
   background: #e3e3e3;
   max-width: 600px;
   margin: 45px auto;
-  border-radius: 16px;
+  border-radius: 16px grey ;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.first :hover{
+  cursor: pointer;
 }
 
 .input-text {
@@ -38,8 +43,8 @@ hr{
 }
 
 .weather-forecast {
-  display: flex;
-  justify-content: space-between;
+  display:flex;
+  justify-content:space-around;
   font-family: "Lora", serif;
 }
 strong {
@@ -47,8 +52,9 @@ strong {
 }
 
 .weather-icon {
-  width: 50px;
-  height: 50px;
+  width: 10px;
+  height: 10px;
+  font-size: 35px;
 }
 
 .weather-temperature {
