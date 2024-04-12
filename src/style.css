@@ -44,7 +44,7 @@ hr{
 
 .weather-forecast {
   display:flex;
-  justify-content:space-around;
+  justify-content:space-evenly;
   font-family: "Lora", serif;
 }
 strong {
@@ -63,3 +63,6 @@ strong {
   font-weight: bold;
 }
 
+.weather-app-unit{
+margin-top: 1px;
+}

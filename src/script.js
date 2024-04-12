@@ -1,10 +1,9 @@
 function updateWeather(response){
     let temperatureElement = document.querySelector("#weather-temperature");
     let temperature = response.data.temperature.current;
-let cityElement = document.querySelector("#weather-app-city");
-cityElement.innerHTML = inputText.value;
-
-cityElement = response.data.city;
+    let cityElement = document.querySelector("#weather-app-city");
+    
+cityElement.innerHTML = response.data.city;
 temperatureElement.innerHTML = Math.round(temperature);
  
 }
